@@ -42,5 +42,7 @@ def get_first_less(numbers, my_value):
 numbers1 = [42, 4, 78, 3, 11, 98, 76, 6, 2, 67]
 numbers2 = [12, 13, 22, 13, 101, 87, 16, 45, 5]
 
-get_first_less(numbers1, 30)
+MIN_VALUE = 30
+
+get_first_less(numbers1, MIN_VALUE)
 get_first_less(numbers2, 1)
